@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minihls test</title>
+</head>
+<body>
+    <audio id="au" controls></audio>
+    <script src="minihls.js"></script>
+    <script>hls_load("audio/mpeg", prompt("stream url?"), au)</script>
+</body>
+</html>
